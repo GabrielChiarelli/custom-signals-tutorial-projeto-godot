@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://dalh3lwm41buv"]
+
+[ext_resource type="Script" path="res://scenes/cena_principal/cena_principal.gd" id="1_6peqi"]
+[ext_resource type="PackedScene" uid="uid://6orgbotqsree" path="res://scenes/teste/teste.tscn" id="2_m20qb"]
+
+[node name="CenaPrincipal" type="Node2D"]
+script = ExtResource("1_6peqi")
+
+[node name="Teste" parent="." instance=ExtResource("2_m20qb")]
